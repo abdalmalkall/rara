@@ -149,7 +149,7 @@ function computeTargets() {
     }
 
     // ✅ تحسين الخطوط للأحرف
-    const nameRaw = sampleTextPoints('Rihan', nameW, nameH, isMobile ? 4 : 3, isMobile ? 0.75 : 0.85);
+    const nameRaw = sampleTextPoints('Rihana', nameW, nameH, isMobile ? 4 : 3, isMobile ? 0.75 : 0.85);
     const nameTargets = nameRaw.map(r => new THREE.Vector3(r.x, r.y - 10, (Math.random()-0.5)*20));
 
     // ✅ عرض العبارة على ثلاث أسطر: "I LOVE", ثم "YOU", ثم "RIAHNA" في الأسفل
